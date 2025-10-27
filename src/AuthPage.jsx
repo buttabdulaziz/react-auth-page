@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./style.css";
 
 const AuthPage = () => {
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
 
   // All data  usestates
   const [name, setName] = useState("");
@@ -40,6 +40,8 @@ const AuthPage = () => {
 
       if (data.status) {
         setMessage("Login successful!");
+        setEmail("");
+        setPass("");
         console.log("User data:", data.user);
       } else {
         setMessage(data.message || "Invalid email or password");
@@ -68,7 +70,7 @@ const AuthPage = () => {
             dob,
             gender,
             address,
-            ph_number,
+            phNumber,
           }),
         }
       );
@@ -79,6 +81,8 @@ const AuthPage = () => {
         setMessage("Registration successful!");
         console.log("Registered user:", data);
         setIsLogin(true);
+        setEmail("");
+        setPass("");
       } else {
         setMessage(data.error || "Registration failed");
       }
