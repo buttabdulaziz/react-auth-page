@@ -27,10 +27,10 @@ The main goals of this project are to:
 ## 📂 Project Description  
 The Auth Page allows users to:
 
-**Sign Up** by entering their details (name, email, password, etc.)
-**Log In** with existing credentials
-Validate form inputs before API submission
-Navigate between login and signup screens seamlessly
+**Sign Up** by entering their details (name, email, password, etc.) <br>
+**Log In** with existing credentials <br>
+Validate form inputs before API submission <br>
+Navigate between login and signup screens seamlessly <br>
 
 The focus of this project was to practice **API communication** and **form handling** in React while maintaining a clean, responsive design.
 
