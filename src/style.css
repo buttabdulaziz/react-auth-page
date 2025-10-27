@@ -1,0 +1,150 @@
+/* General Container */
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe3cf;
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-image: url("./src/assets/images/bg-img.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+/* Main Box */
+.auth-box {
+  background: #fff4ed;
+  border-radius: 20px;
+  display: flex;
+  width: 900px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Left Section (Form) */
+.form-section {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-text {
+  color: #ff7a00;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 10px 0 20px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  width: 100%;
+}
+
+input:focus {
+  border-color: #ff7a00;
+}
+
+.forgot {
+  font-size: 13px;
+  color: #ff7a00;
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #ff662a;
+  color: white;
+  border: none;
+  padding: 12px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff4a00;
+}
+
+.continue {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Social Buttons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.social {
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #fff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social:hover {
+  transform: scale(1.1);
+}
+
+.register {
+  font-size: 14px;
+  text-align: center;
+}
+
+.register a {
+  color: #ff7a00;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Right Section (Image) */
+.image-section {
+  flex: 1;
+  background-color: #ffdcc6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-button {
+  background: none;
+  border: none;
+  color: #ff4500;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.image-section img {
+  width: 300px;
+  object-fit: contain;
+}
