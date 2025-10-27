@@ -1,16 +1,42 @@
-# React + Vite
+# 🔐 React Auth Page 
+This project is a simple authentication system built using **React**. It includes **Login** and **Signup** functionality with backend **API integration**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website is built using **React**, **Bootstrap**, and **CSS**.
+For live weather updates, I used Free Weather APIs (only current weather and a few available details). The rest of the content is hardcoded for design and learning purposes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Purpose  
+The main goals of this project are to:
 
-## React Compiler
+1- Practice building authentication pages in React. <br>
+2- Learn how to connect frontend forms with backend APIs. <br>
+3- Understand handling user data securely and managing form state. <br>
+4- Improve UI/UX for user authentication flows.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack  
+- **REACT** — Component-based UI 
+- **CSS3** — Styling and layout  
+- **Bootstrap** — For quick responsive layouts  
+- **REST APIs** — For login and signup integration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Description  
+The Auth Page allows users to:
+
+**Sign Up** by entering their details (name, email, password, etc.)
+**Log In** with existing credentials
+Validate form inputs before API submission
+Navigate between login and signup screens seamlessly
+
+The focus of this project was to practice **API communication** and **form handling** in React while maintaining a clean, responsive design.
+
+---
+
+## 🚀 How to Use  
+Clone this repository:  
+
+git clone https://github.com/buttabdulaziz/react-auth-page.git
